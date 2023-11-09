@@ -9,7 +9,7 @@ import { ComboboxDemo } from "@/components/ComboboxDemo";
 import { CommandDemo } from "@/components/CommandDemo";
 import { ContextMenuDemo } from "@/components/ContextMenuDemo";
 import { DataTableDemo } from "@/components/DataTableDemo";
-import { DatePickerWithPresets } from "@/components/DatePickerWithPresets";
+import { DatePickerWithRange } from "@/components/DatePickerWithRange";
 import { DialogDemo } from "@/components/DialogDemo";
 import { DropdownMenuDemo } from "@/components/DropdownMenuDemo";
 import { MenubarDemo } from "@/components/MenubarDemo";
@@ -58,7 +58,7 @@ export default function Home() {
       </div>
       <DataTableDemo />
       <div className="grid grid-cols-3 gap-6 items-center justify-items-center">
-        <DatePickerWithPresets />
+        <DatePickerWithRange />
         <DialogDemo />
         <MenubarDemo />
         <NavigationMenuDemo />
