@@ -44,7 +44,10 @@ export default function Home() {
           <Button variant="secondary">Button</Button>
           <Button variant="outline">Button</Button>
           <Button variant="ghost">Button</Button>
+          <Button variant="link">Button</Button>
+          <Button variant="destructive">Button</Button>
         </div>
+        <DropdownMenuDemo />
         <Calendar />
         <CardDemo />
         <CheckboxDemo />
@@ -57,7 +60,6 @@ export default function Home() {
       <div className="grid grid-cols-3 gap-6 items-center justify-items-center">
         <DatePickerWithPresets />
         <DialogDemo />
-        <DropdownMenuDemo />
         <MenubarDemo />
         <NavigationMenuDemo />
         <PopoverDemo />

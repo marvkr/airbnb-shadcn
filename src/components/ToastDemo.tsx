@@ -15,7 +15,7 @@ export function ToastDemo() {
           title: "Scheduled: Catch up ",
           description: "Friday, February 10, 2023 at 5:57 PM",
           action: (
-            <ToastAction altText="Goto schedule to undo">Undo</ToastAction>
+            <ToastAction altText="Go to schedule to undo">Undo</ToastAction>
           ),
         });
       }}>

@@ -5,20 +5,20 @@ import { cva, type VariantProps } from "class-variance-authority";
 import { cn } from "@/lib/utils";
 
 const buttonVariants = cva(
-  "inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50",
+  "inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-0 disabled:pointer-events-none disabled:opacity-50",
   {
     variants: {
       variant: {
         default:
-          "bg-gradient-to-r from-[#D33753] via-[#D13660] to-[#C72D65] text-primary-foreground hover:opacity-90",
+          "bg-gradient-to-r from-[#D33753] via-[#D13660] to-[#C72D65] text-primary-foreground hover:opacity-90 focus-visible:border-[#D3D3D3] focus-visible:border-2",
         destructive:
           "bg-destructive text-destructive-foreground hover:bg-destructive/90",
         outline:
-          "border border-secondary bg-background hover:bg-accent hover:text-accent-foreground",
+          "border border-secondary bg-background hover:bg-accent hover:text-accent-foreground focus:border-none",
         secondary:
-          "border bg-secondary/90 text-secondary-foreground hover:bg-secondary",
+          "border bg-secondary/90 text-secondary-foreground hover:bg-secondary focus-visible:border-[#D3D3D3] focus-visible:border-2",
         ghost: "hover:bg-accent hover:text-accent-foreground",
-        link: "text-primary underline-offset-4 hover:underline",
+        link: "transition text-foreground/90 underline-offset-4 underline hover:text-foreground",
       },
       size: {
         default: "h-10 px-4 py-2",
