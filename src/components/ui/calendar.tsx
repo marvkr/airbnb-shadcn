@@ -42,13 +42,14 @@ function Calendar({
           "h-9 w-9 p-0 font-normal aria-selected:opacity-100 rounded-full"
         ),
         day_selected:
-          "bg-primary text-primary-foreground hover:bg-primary hover:text-primary-foreground focus:bg-primary focus:text-primary-foreground",
-        day_today: "bg-accent text-accent-foreground",
-        day_outside: "text-muted-foreground opacity-50",
-        day_disabled: "text-muted-foreground opacity-50",
+          "bg-primary text-primary-foreground hover:bg-primary hover:text-primary-foreground focus:bg-primary focus:text-primary-foreground rounded-full",
+        day_today:
+          " border-2 border-primary text-accent-foreground rounded-full",
+        day_outside: "text-muted-foreground opacity-50 rounded-full",
+        day_disabled: "text-muted-foreground opacity-50 rounded-full",
         day_range_middle:
-          "aria-selected:bg-accent aria-selected:text-accent-foreground",
-        day_hidden: "invisible",
+          "aria-selected:bg-accent aria-selected:text-accent-foreground ",
+        day_hidden: "invisible rounded-full",
         ...classNames,
       }}
       components={{

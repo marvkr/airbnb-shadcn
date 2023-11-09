@@ -10,7 +10,7 @@ const buttonVariants = cva(
     variants: {
       variant: {
         default:
-          "bg-gradient-to-r from-[#D33753] via-[#D13660] to-[#C72D65] text-primary-foreground hover:opacity-90 focus-visible:border-[#D3D3D3] focus-visible:border-2",
+          "bg-gradient-to-r from-[#D33753] via-[#D13660] to-[#C72D65] text-primary-foreground focus-visible:border-[#D3D3D3] focus-visible:border-2 hover:bg-[position:_100%_100%] bg-[size:_150%]",
         destructive:
           "bg-destructive text-destructive-foreground hover:bg-destructive/90",
         outline:

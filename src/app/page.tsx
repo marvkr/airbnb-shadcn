@@ -45,7 +45,6 @@ export default function Home() {
           <Button variant="outline">Button</Button>
           <Button variant="ghost">Button</Button>
           <Button variant="link">Button</Button>
-          <Button variant="destructive">Button</Button>
         </div>
         <DropdownMenuDemo />
         <Calendar />
