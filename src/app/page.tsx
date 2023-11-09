@@ -52,6 +52,7 @@ export default function Home() {
         <CardDemo />
         <CheckboxDemo />
         <CollapsibleDemo />
+        <DialogDemo />
         <ComboboxDemo />
         <CommandDemo />
         <ContextMenuDemo />
@@ -59,7 +60,6 @@ export default function Home() {
       <DataTableDemo />
       <div className="grid grid-cols-3 gap-6 items-center justify-items-center">
         <DatePickerWithRange />
-        <DialogDemo />
         <MenubarDemo />
         <NavigationMenuDemo />
         <PopoverDemo />

@@ -20,7 +20,7 @@ import {
 
 export function CommandDemo() {
   return (
-    <Command className="rounded-lg border shadow-md">
+    <Command className="rounded-lg shadow-md border">
       <CommandInput placeholder="Type a command or search..." />
       <CommandList>
         <CommandEmpty>No results found.</CommandEmpty>
